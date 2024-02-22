@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-zmim
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0061-tenant/tkrw-pr712-0075-0061-app/devfile-sample-zmim@sha256:8b6c5a7b4175007557728df4eb8e743ee3f9b94233a279c077b3cc75ac37258e
         name: my-nodejs
         ports:
         - containerPort: 3001
